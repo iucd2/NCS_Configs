@@ -2,7 +2,7 @@ name: Brute Force Login Attempt Detection
 type: frequency
 index: dangerous*
 num_events: 10
-timeframe: 600  # 10 minutes
+timeframe: 600
 filter:
   - term:
       tags: ["failed_password"]
