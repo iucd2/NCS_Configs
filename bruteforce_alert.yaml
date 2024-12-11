@@ -5,7 +5,7 @@ num_events: 10
 timeframe: 600  # 10 minutes
 filter:
   - term:
-      tags: ["bruteforce"]
+      tags: ["failed_password"]
 alert:
   - "slack"
   - "command"
